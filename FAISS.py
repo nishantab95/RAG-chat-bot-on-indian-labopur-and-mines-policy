@@ -9,7 +9,7 @@ import os
 def upload_pdf():
     load_dotenv()
     all_docs = []
-    folder_path = 'E:/Git/RAG chatbot/hr/policies'
+    folder_path = 'E:/Git/RAG chat bot on indian labopur and mines policy/policies'
 
     for file in os.listdir(folder_path):
         if file.endswith(".pdf"):
