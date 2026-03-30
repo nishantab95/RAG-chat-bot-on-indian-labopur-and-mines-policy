@@ -8,11 +8,11 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv
 import os
 
-# -------------------- SETUP --------------------
+
 load_dotenv()
 
-st.set_page_config(page_title="HR Chatbot", layout="wide")
-st.title("🤖 HR Policy Chatbot")
+st.set_page_config(page_title="Indian labour and policy acts Chatbot", layout="wide")
+st.title("🤖 Indian labour and policy acts Chatbot")
 
 # -------------------- LOAD VECTOR DB --------------------
 @st.cache_resource
